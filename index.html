@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pathfinding Visualizer</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link id="cssTheme" rel="stylesheet" href="public/styling/cssBasic.css"/>
+        <link rel="shortcut icon" type="image/png" href="public/styling/c_icon.png"/>
+    </head>
+    <body>
+        <div>
+            <div class="App"></div>
+        </div>
+        <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        
+        <script type="text/babel" src="App.js"></script>
+
+        <script type="text/babel">
+            ReactDOM.render(<App/>, document.querySelector('.App'))
+        </script>
+    </body>
+</html>
